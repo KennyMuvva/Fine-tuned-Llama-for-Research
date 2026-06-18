@@ -1,0 +1,15 @@
+# Deep Learning & Model Handling
+torch>=2.0.0
+transformers>=4.43.0
+peft>=0.12.0
+accelerate>=0.32.0
+safetensors>=0.4.0
+
+# PDF Text Extraction
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+
+# Data Engineering
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+tqdm>=4.66.0
