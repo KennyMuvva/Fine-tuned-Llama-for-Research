@@ -59,10 +59,10 @@ else:
     print("        LLaMA 3.1 8B in bfloat16 requires ~16 GB minimum.")
     print("        Options: use 4-bit quantization (QLoRA) or a larger GPU.")
     sys.exit(1)
-LOCAL_MODEL_PATH  = "/home/asds/317/FullBaseModel/"
-DATASETS_ROOT_DIR = "/home/asds/317/Dataset/Laser, Plasma & Advanced Physics/"
-OUTPUT_DIR        = "/home/asds/317/fine_tuned_output_FM/fine_tuned_outputs_LPAP"
-FINAL_ADAPTER_DIR = "/home/asds/317/FM_my_llama3_1_adapters/my_llama3_1_adapter_LPAP/"
+LOCAL_MODEL_PATH  = "/path/FullBaseModel/"
+DATASETS_ROOT_DIR = "/path/"
+OUTPUT_DIR        = "/path/"
+FINAL_ADAPTER_DIR = "/path/my_llama3_1_adapter_LPAP/"
 PROMPT_TEMPLATE = (
     "Below is an instruction that describes a task targeting the domain of [{}], "
     "paired with an input that provides further context. "
