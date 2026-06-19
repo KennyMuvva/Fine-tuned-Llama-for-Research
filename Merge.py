@@ -3,21 +3,21 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 # Configuration
-BASE_MODEL = "/home/asds/317/FullBaseModel/"
-OUTPUT_PATH = "/home/asds/317/local_merged_11_output"
+BASE_MODEL = "path/FullBaseModel/"
+OUTPUT_PATH = "path/local_merged_11_output"
 # Mapping names to paths (Fixed to be a dictionary)
 ADAPTER_MAP = {
-    "BASE": "/home/asds/317/my_llama3_1_adapters/",
-    "ESHP": "/home/asds/317/my_llama3_1_adapters_ESHP/",
-    "GIN": "/home/asds/317/my_llama3_1_adapters_GIN/",
-    "IAT": "/home/asds/317/my_llama3_1_adapters_IAT/",
-    "MSM": "/home/asds/317/my_llama3_1_adapters_MSM/",
-    "NRE": "/home/asds/317/my_llama3_1_adapters_NRE/",
-    "PAP": "/home/asds/317/my_llama3_1_adapters_PAP/",
-    "RARH": "/home/asds/317/my_llama3_1_adapters_RARH/",
-    "RCS": "/home/asds/317/my_llama3_1_adapters_RCS/",
-    "RMB": "/home/asds/317/my_llama3_1_adapters_RMB/",
-    "WMD": "/home/asds/317/my_llama3_1_adapters_WMD/"
+    "BASE": "/path/my_llama3_1_adapters/",
+    "ESHP": "/path/my_llama3_1_adapters_ESHP/",
+    "GIN": "/path/my_llama3_1_adapters_GIN/",
+    "IAT": "/path/my_llama3_1_adapters_IAT/",
+    "MSM": "/path/my_llama3_1_adapters_MSM/",
+    "NRE": "/path/my_llama3_1_adapters_NRE/",
+    "PAP": "/path/my_llama3_1_adapters_PAP/",
+    "RARH": "/path/my_llama3_1_adapters_RARH/",
+    "RCS": "/path/my_llama3_1_adapters_RCS/",
+    "RMB": "/path/my_llama3_1_adapters_RMB/",
+    "WMD": "/path/my_llama3_1_adapters_WMD/"
 }
 def main():
     #  Isolate the 48GB GPU
