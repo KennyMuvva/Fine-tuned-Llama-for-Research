@@ -1,0 +1,48 @@
+    {
+      "question": "What is the specific application and functional purpose of the drone-based system described in the text?",
+      "answer": "The drone-based system was developed for the purposes of land survey and research in nuclear agriculture. This system utilizes Artificial Intelligence to build models that provide crucial information required for decision making."
+    },
+    {
+      "question": "What technical approach and hardware configuration are used to address the challenge of perception in self-driving robots?",
+      "answer": "To address the challenge of perception in self-driving robots, a Deep Learning based data-driven AI approach has been employed. This approach is used to build a perception system that utilizes sensor packs containing LiDAR, a monocular camera, and a stereo camera."
+    },
+    {
+      "question": "According to the text, what is the primary role of Artificial Intelligence in the field of robotics and what does it enable?",
+      "answer": "Artificial Intelligence (AI) based decision making enables robotic solutions to perform intellectual tasks. In the field of robotics, AI is used to solve many complex problems that would otherwise be difficult to solve."
+    },
+    {
+      "question": "How does the material transportation process on the factory floor function in terms of human intervention and the types of information required for its execution?",
+      "answer": "The process of material transportation on the factory floor is executed without the intervention of human. To function, the system utilizes prior information about the environment and the process, which is provided by either the designer or the operator. This essential information includes a map of the area, the specific know-how of the process being automated, and various constraints."
+    },
+    {
+      "question": "What are the specific technical advantages and capabilities of drone-based systems in the domains of geographical survey and agriculture?",
+      "answer": "Drones, empowered with AI, are changing the face of application domains such as geographical survey and agriculture. They possess the capability to navigate to places where a human cannot, provide new information affordably, and cover large areas in a short span of time. Specifically, DRHR, BARC has developed drone-based solutions to conduct photogrammetric surveys of land and thermal & multi-spectral imaging for agricultural research."
+    },
+    {
+      "question": "Can you explain the technical methodology used by drones to produce detailed 2D and 3D maps during a land survey?",
+      "answer": "Drones carry out land surveys with the same quality as highly accurate traditional methods but in only a fraction of the time. The process utilizes the photogrammetry technique, specifically employing bundle-adjustment based optimization. This optimization works to minimize the reprojection error by combining images that contain the same point on the ground from multiple vantage points, which ultimately yields detailed 2D and 3D maps. The quality of these results is dependent on factors such as planning, image quality, weather patterns, control points, and the expertise of the surveyor."
+    },
+    {
+      "question": "What is the operational procedure for image capture during a drone-based survey and what aspects of the process remain under human control?",
+      "answer": "The drone captures multispectral, thermal, and colour images of the survey site using high-resolution multispectral, thermal, and visible-spectrum onboard imagers. During the operation, the drone autonomously navigates along a pre-defined path and captures images along the trajectory. However, certain decisions are left to the human operator, specifically the defining of way points and the postprocessing of data."
+    },
+    {
+      "question": "In the context of agricultural research, what are the prominent application areas for drone technology and what specific imaging technology is used for studying stomatal responses?",
+      "answer": "For agriculture applications, the prominent areas of use include yield prediction, crop health, and field phenotyping of plant response to drought. Additionally, thermal imaging is noted as an established technology for the study of stomatal responses."
+    },
+    {
+      "question": "What are the specific applications and benefits of using thermal imaging technology within the context of agricultural research and crop development?",
+      "answer": "Thermal imaging is an established technology utilized for the study of stomatal responses and for drought phenotyping. The application of this technology could be helpful for the development of drought tolerant varieties of different crops through the process of mutation breeding."
+    },
+    {
+      "question": "How does the integration of drone-based multispectral imaging and vegetation index maps contribute to comprehensive agricultural assessment?",
+      "answer": "Computing vegetation index maps by means of drone based multispectral imaging helps to assess the health of the crop. Such a system, when used together with other solutions, helps to perform relative biomass analysis, drought stress assessment, agricultural production prediction, nutrition monitoring, and the identification of pests and diseases that are affecting the crop."
+    },
+    {
+      "question": "What is the ultimate objective of autonomous mobile robot technology and in which industrial sectors can such technology provide benefits?",
+      "answer": "The ultimate aim of autonomous mobile robot technology, which allows robots to navigate and make decisions without the help of any external agent, is to achieve driving capability of human or better and delegate the task to an AI engine. Any industry will benefit from such technology, specifically in areas such as material transportation in factories, security & surveillance, and disaster management."
+    },
+    {
+      "question": "What are the prerequisite requirements for robot navigation and what specific sensors are utilized to probe the environment?",
+      "answer": "Sensing the environment is a prerequisite for navigation. Just like humans use their senses to probe the environment for safe navigation, mobile robots utilize sensors such as cameras, LIDAR, radar, sonar, GPS, and IMU."
+    },
