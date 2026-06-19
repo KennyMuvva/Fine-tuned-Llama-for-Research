@@ -3,8 +3,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
-BASE_MODEL = "/home/asds/317/FullBaseModel/"
-ADAPTER    = "/home/asds/317/FM_my_llama3_1_adapters/my_llama3_1_adapter_EIC/"
+BASE_MODEL = "/path/FullBaseModel/"
+ADAPTER    = "/path/my_llama3_1_adapter_EIC/"
 print("Loading tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(ADAPTER)
 print("Loading base model...")
