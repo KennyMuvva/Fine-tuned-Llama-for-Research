@@ -6,8 +6,8 @@ import fitz  # PyMuPDF
 # --- CONFIGURATION ---
 API_URL = "http://x.x.x.x:8430/v1/chat/completions"
 MODEL_NAME = "/gemma4-26B-A4b"  # Exact ID from your server configuration
-INPUT_FOLDER = "F:\Scrape\BARC_Classified_Library"
-OUTPUT_FOLDER = "F:\Scrape\Jsons"
+INPUT_FOLDER = "\path\Classified_Library"
+OUTPUT_FOLDER = "\Scrape\Jsons"
 TARGET_GRANULAR_QA = 50
 CHUNK_SIZE = 2000  # Size of text blocks for precise QA extraction
 MACRO_SECTION_SIZE = 15000  # Approx size for fallback chapters if no regex match found
