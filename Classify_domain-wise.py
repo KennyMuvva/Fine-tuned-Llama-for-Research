@@ -51,8 +51,8 @@ Your exact single-line category match:"""
         return "General & Institutional News"
 def organize_archive_by_ai():
     # Paths based on our previous download setup
-    source_library = "F:\Scrape\Library"
-    destination_library = "F:\Scrape\Classified_Library"
+    source_library = "Path"
+    destination_library = "Path"
     if not os.path.exists(source_library):
         print(f"Source folder '{source_library}' not found. Please run the downloader first.")
         return
